@@ -1,0 +1,23 @@
+.contact-container {
+        background-color: slategrey;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 25px;
+        color: #ffffff;
+        margin: 20%;
+        padding: 20px;
+        padding-top: 45px;
+        padding-bottom: 45px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+}
+
+.inner-container {
+    text-align: center;
+}
+
+.icon-contact {
+    height: 60px;
+    width: 60px;
+}

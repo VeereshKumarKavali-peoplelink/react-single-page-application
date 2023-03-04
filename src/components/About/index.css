@@ -1,0 +1,16 @@
+.about-container {
+    background-color: slategray;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: #ffffff;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    padding: 15px;
+}
+
+.about-paragraph {
+    text-align: left;
+    color: #ffffff;
+}

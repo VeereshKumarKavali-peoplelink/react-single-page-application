@@ -1,0 +1,426 @@
+.resume-container {
+  display: flex;
+  flex-direction: row;
+  background-color: grey;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.bg-container-resume {
+  min-height: 100vh;
+  border-right: 2px solid black;
+  padding: 25px;
+  padding-top: 150px;
+  padding-bottom: 50px;
+  background-color: white;
+  align-self: center;
+  flex-grow: 1;
+  overflow: auto;
+  margin-left: 190px;
+}
+
+
+@media  (max-width: 992px){
+  .bg-container-resume {
+    padding-top: 280px;
+  }
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color:  indigo;
+  position: fixed;
+  width: 100%;
+  align-self: stretch;
+
+
+}
+.resume-header {
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+@media screen and (max-width: 576px){
+  .bg-container-resume {
+    align-self: center;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .bg-container-resume {
+    width: 60%;
+    max-width: 1120px;
+
+  
+  }
+}
+
+.heading-resume {
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: bold;
+  color: blue;
+  font-size: 32px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  
+
+}
+.address-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  
+
+}
+.paragraph {
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 18px;
+  color: rgb(17, 12, 12);
+  padding: 0px;
+}
+
+
+
+.mail-paragraph {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 18px;
+  color: blue;
+  text-decoration: underline;
+  margin-left: 5px;
+  text-align: center;
+  padding: 0px;
+  
+}
+
+.linkedin-paragraph {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 18px;
+  color: blue;
+  text-decoration: underline;
+  margin-left: 5px;
+  text-align: center;
+  padding: 0px;
+  margin-top: 0px;
+}
+
+.side-heading {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  margin-top: px;
+  margin-bottom: 0px;
+}
+
+.hr-line {
+  background-color: black;
+  height: 1px;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 0px;
+}
+
+.text-paragraph {
+  font-weight: 600;
+  font-size: 19px;
+  margin-bottom: 0px;
+  
+  
+
+}
+
+.bottom-text-paragraph {
+  margin-top: 0px;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 17px;
+  color: black;
+}
+
+
+.course-title {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  margin-top: 0px;
+}
+
+.course-name {
+  font-family: "Roboto";
+  font-weight: 200;
+  font-size: 18px;
+  color: black;
+  padding-left: 12px;
+}
+
+.project-heading {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 18px;
+  color: black;
+  margin-bottom: 0px;
+}
+
+.project-link {
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 17px;
+  color: blue;
+  text-decoration: underline;
+}
+
+.project-description {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  color: black;
+  margin-top: 8px;
+}
+
+.unordered-list-resume {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.list-item-resume {
+  margin-top: 8px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  color: black;
+}
+
+
+.footer-element {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color:  indigo;
+  align-self: stretch;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  height: 40px;
+  
+}
+
+
+.zoho-mail {
+  padding-left: 5px;
+  padding-bottom: 6px;
+  color: white;
+
+}
+
+
+
+.sidebar-bg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+  
+
+}
+
+.sidebar {
+  flex-shrink: 0;
+  left: 0;
+  position: fixed;
+  background-color: goldenrod;
+  width: 152px;
+  padding: 20px;
+  font-family:'Times New Roman', Times, serif;
+  flex-grow: 1;
+  height: 100%;
+  margin-top: 135px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+}
+
+
+
+@media screen and (max-width: 992px){
+  .sidebar {
+    margin-top: 245px;
+  }
+
+}
+
+@media screen and (min-width: 1120px){
+  .sidebar {
+    margin-top: 134px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .sidebar {
+    margin-top: 182px;
+  }
+
+}
+
+@media (max-width: 576px){
+  .sidebar {
+    display: none;
+  }
+}
+
+
+.education-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+
+.skills-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px){
+  .display-styling {
+    display: none;
+  }
+
+}
+
+.achievements-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.achievements-icon {
+  height: 23px;
+  width: 23px;
+  padding: 0px;
+
+}
+
+.icon-style {
+  font-size: 27px;
+  color: black;
+}
+
+.projects-icon {
+  font-size: 22px;
+}
+
+.logo {
+  width: 52px;
+}
+
+.linkedin-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.icon {
+  margin-top: 3px;
+  margin-right: 2px;
+  margin-left: 4px;
+  margin-top: 3px;
+  margin-right: 2px;
+  margin-left: 4px;
+  font-size: 18px;
+}
+
+.home-icon {
+  margin-right: 3px;
+  font-size: 20px;
+  margin-bottom: 3px;
+}
+
+.phone-number-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+
+}
+
+.phone-number {
+  color: blue;
+  font-size: 18px;
+  font-weight: 500;
+
+}
+
+.phone-number-heading{
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: 500;
+  margin-left: 3px;
+}
+
+.mail-icon {
+  margin-top: 3px;
+  margin-right: 2px;
+  margin-left: 4px;
+  font-size: 18px;
+}
+
+
+.veeresh-pic {
+  height: 170px;
+  width: 170px;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+
+.details-image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.details-container {
+  margin-left: auto;
+  margin-right: auto;
+}
